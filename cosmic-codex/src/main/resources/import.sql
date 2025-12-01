@@ -1,0 +1,6 @@
+INSERT INTO tb_section(id, title, description, image_url) VALUES (1, 'Sistema Solar', 'A nossa vizinhança cósmica.', 'https://upload.wikimedia.org/wikipedia/commons/c/c3/Solar_sys8.jpg');
+INSERT INTO tb_section(id, title, description, image_url) VALUES (2, 'Estrelas', 'Ciclo de vida estelar.', 'https://upload.wikimedia.org/wikipedia/commons/6/62/Stars_int.jpg');
+
+INSERT INTO tb_celestial_body(id, name, description, image_url, mass, radius, gravity, section_id) VALUES (1, 'Sol', 'A estrela central.', 'https://github.com/Joao-Victor-Teixeira/java-cosmic-codex/blob/main/images/315594.jpg', 1.989E30, 696340.0, 274.0, 2);
+INSERT INTO tb_celestial_body(id, name, description, image_url, mass, radius, gravity, section_id) VALUES (2, 'Terra', 'O planeta azul.', 'https://github.com/Joao-Victor-Teixeira/java-cosmic-codex/blob/main/images/19608.jpg', 5.972E24, 6371.0, 9.8, 1);
+INSERT INTO tb_celestial_body(id, name, description, image_url, mass, radius, gravity, section_id) VALUES (3, 'Marte', 'O planeta vermelho.', 'https://github.com/Joao-Victor-Teixeira/java-cosmic-codex/blob/main/images/mars-4k-bc9f9m72qv07ku50.jpg', 6.39E23, 3389.5, 3.72, 1);
